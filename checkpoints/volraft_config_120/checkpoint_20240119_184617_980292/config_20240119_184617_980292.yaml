@@ -1,0 +1,111 @@
+# YAML configuration file
+# Define all hyper-parameters
+
+# Patch size (x, y, z) that desired
+# null: using the full size
+# patch_xyz: [60, 80, 80]
+patch_xyz: null
+
+# Flow size (x, y, z) that desired
+# null: using [1, 1, 1]
+# flow_shape: [240, 320, 320]
+flow_shape: [60, 80, 80]
+
+# Number of epochs
+epochs: 10000
+
+# Learning rate
+lr: 0.00002
+
+# Optimizer
+# "AdamW"
+optimizer_type: "AdamW"
+optimizer_betas: [0.9, 0.999]
+optimizer_eps: 1e-8
+optimizer_weight_decay: 0.00005
+
+# Scheduler
+# "StepLR", "CyclicLR", "OneCycleLR"
+# scheduler_type: "StepLR"
+# scheduler_step_size: 50
+# scheduler_gamma: 0.999
+
+scheduler_type: "CyclicLR"
+scheduler_max_lr_factor: 10.0
+scheduler_step_size_up: 500 # Number of iterations to increase the learning rate
+scheduler_step_size_down: 1500 # Number of iterations to decrease the learning rate
+scheduler_mode: "triangular2" # 'triangular' or 'triangular2'
+scheduler_gamma: 1.0 # Multiplicative factor for learning rate decay
+
+# scheduler_type: "OneCycleLR"
+# scheduler_total_steps: 10100 # epochs + 100
+# scheduler_pct_start: 0.05
+# scheduler_cycle_momentum: false
+# scheduler_anneal_strategy: "linear"
+
+######################################################
+### Network architecture
+### Use the default setting of RAFT
+
+# Network name
+# "dvcnet", "cnn32", "volraft"
+network_name: "volraft"
+
+# Iterations for recurrent update block
+iters: 12
+
+# Levels of correlation volume
+corr_levels: 4
+
+# Radius of correlation
+corr_radius: 3
+
+# Clip gradient norm
+gradient_norm_clip: 1.0
+
+# Projection - the maximum range of flow vector
+# proj_max_flow: 256.0
+proj_max_flow: 24.0
+
+# loss type
+loss_type: "RAFTLoss"
+
+# Exponential weighting for loss
+loss_gamma: 0.8
+
+######################################################
+### No optimization is needed here
+
+# Number of epoch for each plot
+epoch_plot: 20
+
+# Number of epoch for each checkpoint
+epoch_checkpoint: 100
+
+# Number of epoch for each validation
+epoch_validation: 20
+
+# Seed
+seed: 42
+
+# Mini-batch size
+# Estimation for memory, when corr_levels = 4 and corr_radius = 3:
+# 80GB: size = 32 for 60x80x80
+# 48GB: size =  for 60x80x80
+# 32GB: size = 18 for 60x80x80
+minibatch_size: 18
+
+# number of mini-batch for each epoch (should be a multiple of num_workers)
+minibatch_num_train: 32
+minibatch_num_valid: 16
+
+# # Size of dataset (null for full size)
+# dataset_max_length: null
+
+# Size of training set (0, 1]
+dataset_size_train: 0.8
+
+# Number of workers (default: 32)
+num_workers_train: 32
+num_workers_valid: 16
+

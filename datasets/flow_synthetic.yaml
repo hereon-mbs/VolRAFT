@@ -1,0 +1,121 @@
+######################################################
+###### Flow fields of synethtic simulations ######
+
+### Flows
+### Parameters:
+###   name: (unique) string that represents the flow field type,
+###         where 'fs' stands for 'flow synthetic'
+flows:
+  - name: fs001
+    type: star
+    max: 16.0
+    orders: [0, 1, 2]
+
+  - name: fs002
+    type: star
+
+  - name: fs003
+    type: star
+    max: 20.0
+
+  - name: fs004
+    type: star
+    max: 24.0
+
+  - name: fs014
+    type: star
+    max: 24.0
+    add_noise: true    
+
+  - name: fs101
+    type: static
+    displacement: [12.0, 24.0, 16.0]
+    snr_db: 16.0
+
+  - name: fs102
+    type: static
+    max: 12.0
+    snr_db: 40.0
+
+  - name: fs103
+    type: static
+    snr_db: 20.0
+
+  - name: fs104
+    type: static
+    max: 24.0
+    snr_db: 30.0
+
+  - name: fs114
+    type: static
+    max: 24.0
+    snr_db: 30.0
+    add_noise: true    
+
+  - name: fs201
+    type: curve
+    slope: [16.0,  20.0,  24.0]
+    shift: [-8.0, -10.0, -12.0]
+
+  - name: fs202
+    type: curve
+    rotation: [0.0, 0.0, 0.0]
+    slope_ratio: 0.7
+
+  - name: fs203
+    type: curve
+    gamma: [1.0, 1.0, 1.0]
+    slope_ratio: 0.8
+
+  - name: fs204
+    type: curve
+    max: 24.0
+
+  - name: fs214
+    type: curve
+    max: 24.0
+    add_noise: true    
+
+  - name: fs301
+    type: sphere
+    max: 16.0
+    velocity: [0.0, 0.0, 0.0]
+    phase_pi: 0.5
+
+  - name: fs302
+    type: sphere
+    max: 12.0
+    velocity: [1.0, 1.0, 1.0]
+    phase_pi: 0.0
+
+  - name: fs303
+    type: sphere
+    max: 20.0
+    velocity: [-1.0, -1.0, -1.0]
+    phase_pi: 0.0
+
+  - name: fs304
+    type: sphere
+    max: 24.0
+
+  - name: fs314
+    type: sphere
+    max: 24.0
+    add_noise: true
+
+  - name: fs401
+    type: overall
+    snr_db: 60.0
+
+  - name: fs402
+    type: overall
+    snr_db: 30.0
+    max: 24.0
+
+  - name: fs412
+    type: overall
+    snr_db: 30.0
+    max: 24.0
+    add_noise: true
+
+### Common parameters

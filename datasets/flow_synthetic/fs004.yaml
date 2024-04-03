@@ -1,0 +1,13 @@
+######################################################
+###### Flow fields of synethtic simulations ######
+
+### Flows
+### Parameters:
+###   name: (unique) string that represents the flow field type,
+###         where 'fs' stands for 'flow synthetic'
+flows:
+  - name: fs004
+    type: star
+    max: 24.0
+
+### Common parameters

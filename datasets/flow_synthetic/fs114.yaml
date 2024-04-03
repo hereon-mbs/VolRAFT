@@ -1,0 +1,17 @@
+######################################################
+###### Flow fields of synethtic simulations ######
+
+### Flows
+### Parameters:
+###   path: directory path to the folder, 
+###         should contain "registration" for volume0 and "watershed" for mask
+###   name: (unique) string that represents the flow field type,
+###         where 'fs' stands for 'flow synthetic'
+flows:
+  - name: fs114
+    type: static
+    max: 24.0
+    snr_db: 30.0
+    add_noise: true
+
+### Common parameters
