@@ -1,0 +1,143 @@
+######################################################
+###### Datasets of measurement ######
+
+### Measurements
+### Parameters:
+###   path: directory path to the folder, 
+###         should contain "registration" for volume0 and "watershed" for mask
+###   name: (unique) string of the measurement
+measurements:
+- name: 2021_11008741_syn0100_17L_Ti_12w
+  path: volraft_measurements/syn0100_17L_Ti_12w
+
+- name: 2021_11008741_syn0102_42R_PEEK_12w
+  path: volraft_measurements/syn0102_42R_PEEK_12w
+
+- name: 2021_11008741_syn0106_71R_Mg10Gd_12w
+  path: volraft_measurements/syn0106_71R_Mg10Gd_12w
+
+- name: 2021_11008741_syn0108_49L_PEEK_12w
+  path: volraft_measurements/syn0108_49L_PEEK_12w
+
+- name: 2021_11008741_syn0111_49R_Ti_12w
+  path: volraft_measurements/syn0111_49R_Ti_12w
+
+- name: 2021_11008741_syn0113_72R_Mg10Gd_12w
+  path: volraft_measurements/syn0113_72R_Mg10Gd_12w
+
+- name: 2021_11008741_syn0115_54R_PEEK_12w
+  path: volraft_measurements/syn0115_54R_PEEK_12w
+
+- name: 2021_11008741_syn0117_40R_Ti_12w_000
+  path: volraft_measurements/syn0117_40R_Ti_12w_000
+
+- name: 2021_11008741_syn0119_54L_Ti_12w_000
+  path: volraft_measurements/syn0119_54L_Ti_12w_000
+
+- name: 2021_11008741_syn0120_63R_Mg10Gd_12w_000
+  path: volraft_measurements/syn0120_63R_Mg10Gd_12w_000
+
+- name: 2021_11008741_syn0121_17R_PEEK_12w
+  path: volraft_measurements/syn0121_17R_PEEK_12w
+
+- name: 2021_11008741_syn0122_17R_PEEK_12w_000
+  path: volraft_measurements/syn0122_17R_PEEK_12w_000
+
+- name: 2021_11008741_syn0123_61R_Ti_12w_000
+  path: volraft_measurements/syn0123_61R_Ti_12w_000
+
+- name: 2021_11008741_syn0125_22R_PEEK_8w_000
+  path: volraft_measurements/syn0125_22R_PEEK_8w_000
+
+- name: 2021_11008741_syn0126_23L_Ti_8w_000
+  path: volraft_measurements/syn0126_23L_Ti_8w_000
+
+- name: 2021_11008741_syn0128_67L_Mg10Gd_8w_000
+  path: volraft_measurements/syn0128_67L_Mg10Gd_8w_000
+
+- name: 2021_11008741_syn0129_60R_Mg5Gd_12w_000
+  path: volraft_measurements/syn0129_60R_Mg5Gd_12w_000
+
+- name: 2021_11008741_syn0132_81R_Mg10Gd_8w
+  path: volraft_measurements/syn0132_81R_Mg10Gd_8w
+
+- name: 2021_11008741_syn0134_21L_Ti_8w_000
+  path: volraft_measurements/syn0134_21L_Ti_8w_000
+
+- name: 2021_11008741_syn0135_23R_PEEK_8w_000
+  path: volraft_measurements/syn0135_23R_PEEK_8w_000
+
+- name: 2021_11008741_syn0136_24L_Ti_8w_000
+  path: volraft_measurements/syn0136_24L_Ti_8w_000
+
+- name: 2021_11008741_syn0137_31L_PEEK_8w_000
+  path: volraft_measurements/syn0137_31L_PEEK_8w_000
+
+- name: 2021_11008741_syn0139_83R_Mg10Gd_8w
+  path: volraft_measurements/syn0139_83R_Mg10Gd_8w
+
+- name: 2021_11008741_syn0141_65R_Mg10Gd_12w_000
+  path: volraft_measurements/syn0141_65R_Mg10Gd_12w_000
+
+- name: 2021_11008741_syn0142_3R_Ti_4w_000
+  path: volraft_measurements/syn0142_3R_Ti_4w_000
+
+- name: 2021_11008741_syn0143_92R_Mg5Gd_4w_000
+  path: volraft_measurements/syn0143_92R_Mg5Gd_4w_000
+
+- name: 2021_11008741_syn0145_37R_Ti_8w_000
+  path: volraft_measurements/syn0145_37R_Ti_8w_000
+
+- name: 2021_11008741_syn0146_7R_PEEK_4w_000
+  path: volraft_measurements/syn0146_7R_PEEK_4w_000
+
+- name: 2021_11008741_syn0147_20L_Ti_4w_000
+  path: volraft_measurements/syn0147_20L_Ti_4w_000
+
+- name: 2021_11008741_syn0148_86R_Mg5Gd_4w
+  path: volraft_measurements/syn0148_86R_Mg5Gd_4w
+
+- name: 2021_11008741_syn0151_5L_PEEK_4w_000
+  path: volraft_measurements/syn0151_5L_PEEK_4w_000
+
+- name: 2021_11008741_syn0154_103L_Mg5Gd_4w_000
+  path: volraft_measurements/syn0154_103L_Mg5Gd_4w_000
+
+- name: 2021_11008741_syn0155_5R_Ti_4w_000
+  path: volraft_measurements/syn0155_5R_Ti_4w_000
+
+- name: 2021_11008741_syn0158_103R_Mg10Gd_4w_000
+  path: volraft_measurements/syn0158_103R_Mg10Gd_4w_000
+
+- name: 2021_11008741_syn0159_89R_Mg10Gd_4w
+  path: volraft_measurements/syn0159_89R_Mg10Gd_4w
+
+- name: 2021_11008741_syn0161_8R_Ti_4w_000
+  path: volraft_measurements/syn0161_8R_Ti_4w_000
+
+- name: 2021_11008741_syn0162_6R_Ti_4w_000
+  path: volraft_measurements/syn0162_6R_Ti_4w_000
+
+- name: 2021_11008741_syn0163_13L_Ti_4w_000
+  path: volraft_measurements/syn0163_13L_Ti_4w_000
+
+# Removed because there is no registration folder
+# - name: 2021_11008741_syn0164_11R_PEEK_4w_000
+#   path: volraft_measurements/syn0164_11R_PEEK_4w_000/watershed
+
+# Removed because there is no registration folder
+# - name: 2021_11008741_syn0165_59L_Mg10Gd_12w
+#   path: volraft_measurements/syn0165_59L_Mg10Gd_12w/watershed
+
+- name: 2021_11008741_syn0169_32L_Ti_8w_000
+  path: volraft_measurements/syn0169_32L_Ti_8w_000
+
+
+
+### Common parameters
+
+# Foreground labels
+mask_label: [1, 2]
+
+# Percentage of volume size for morphological closing
+mask_closing_percent: 1.5

@@ -1,0 +1,5 @@
+mask_closing_percent: 1.5
+mask_label: [1, 2]
+measurements:
+- name: 2021_11008741_syn0139_83R_Mg10Gd_8w
+  path: volraft_measurements/syn0139_83R_Mg10Gd_8w
