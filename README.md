@@ -25,13 +25,13 @@ If you use this code in your scientific publication, please cite the paper
 <table border="0">
   <tr border="0">
     <td align="center" border="0"> 
-      <a href="https://github.com/tak-wong/VolRAFT" target="_black">
+      <a href="https://github.com/tak-wong/VolRAFT" target="_blank">
         <img src="volraft_github_qr.png" width="262" title="link to VolRAFT at GitHub" alt="VolRAFT at GitHub">
       </a> <br/>
       The GitHub repository
     </td>
     <td align="center" border="0">
-      <a href="https://sites.google.com/view/cv4ms-cvpr-2024/home" target="_black">
+      <a href="https://sites.google.com/view/cv4ms-cvpr-2024/home" target="_blank">
         <img src="CV4MS.png" width="262" title="link to CV4MS" alt="CV4MS at CVPR 2024">
       </a> <br/>
       The paper will be available at CVPR
