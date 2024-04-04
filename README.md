@@ -22,15 +22,15 @@ If you use this code in your scientific publication, please cite the paper
 
 ## How to download?
 
-<table style="border-collapse: collapse; border: none;">
-  <tr>
-    <td style="border: none; text-align: center;"> 
+<table border="0">
+  <tr border="0">
+    <td align="center" border="0"> 
       <a href="https://github.com/tak-wong/VolRAFT" target="_black">
         <img src="volraft_github_qr.png" width="262" title="link to VolRAFT at GitHub" alt="VolRAFT at GitHub">
       </a> <br/>
       The GitHub repository
     </td>
-    <td style="border: none; text-align: center;">
+    <td align="center" border="0">
       <a href="https://sites.google.com/view/cv4ms-cvpr-2024/home" target="_black">
         <img src="CV4MS.png" width="262" title="link to CV4MS" alt="CV4MS at CVPR 2024">
       </a> <br/>
