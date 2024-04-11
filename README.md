@@ -1,20 +1,24 @@
 # VolRAFT: Volumetric Optical Flow Network for Digital Volume Correlation of Synchrotron Radiation-based Micro-CT Images of Bone-Implant Interfaces
 
-## Abstract: What is VolRAFT?
+## What is VolRAFT?
 
 In materials science research, digital volume correlation (DVC) analysis is commonly used to track deformations and strains to elucidate morphology-function relationships. Optical flow-based DVC is particularly popular because of its robustness to estimate the correlation as a dense deformation vector. Recently, computer vision researchers showed that network-based optical flow approaches can outperform classical iterative optical flow approaches. In this paper, we propose a supervised machine learning approach for digital volume correlation, VolRAFT, that estimates the 3D displacement vector between the reference volume and the deformed volume. The proposed approach extends the state-of-the-art network-based optical flow method, RAFT, from 2D images to 3D volumes such that it predicts the volumetric displacement vector from the input volume pairs. Experiments show that the proposed network performs well in estimating different displacement fields when compared to cutting-edge iterative DVC methods for bone-implant materials based on high resolution synchrotron-radiation micro-computed tomography imaging data.
+
+Abstract from Wong, T.M., Moosmann, J. & Zeller-Plumhoff, B. (2024). VolRAFT: Volumetric Optical Flow Network for Digital Volume Correlation of Synchrotron Radiation-based Micro-CT Images of Bone-Implant Interfaces. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops. (Accepted for oral presentation)
+
+
 
 ## How to Cite
 If you use this code in your scientific publication, please cite the paper
 
    **VolRAFT: Volumetric Optical Flow Network for Digital Volume Correlation of Synchrotron Radiation-based Micro-CT Images of Bone-Implant Interfaces**<br/>
      *Tak Ming Wong, Julian Moosmann, Berit Zeller-Plumhoff*<br/>
-     Accepted by IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, 2024
+     Accepted for oral presentations by IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, 2024
      
      @InProceedings{wong2024volraft,
         author    = {Wong, Tak Ming and Moosmann, Julian and Zeller-Plumhoff, Berit},
         title     = {VolRAFT: Volumetric Optical Flow Network for Digital Volume Correlation of Synchrotron Radiation-based Micro-CT Images of Bone-Implant Interfaces},
-        booktitle = {Accepted by IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops - Computer Vision for Materials Science (CV4MS)},
+        booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
         month     = {},
         year      = {2024},
         pages     = {}
@@ -34,10 +38,13 @@ If you use this code in your scientific publication, please cite the paper
       <a href="https://sites.google.com/view/cv4ms-cvpr-2024/home" target="_blank">
         <img src="CV4MS.png" width="262" title="link to CV4MS" alt="CV4MS at CVPR 2024">
       </a> <br/>
-      The paper will be available at CVPR
+      The paper will be available at CVPR Workshops - CV4MS
     </td>
   </tr>
 </table>
+
+Datasets:
+- Bone-implant materials: please contact us to access the datasets as it is too large for hosting on public-available platforms.
 
 ## Library packages for reference
 
