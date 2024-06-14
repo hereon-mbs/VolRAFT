@@ -11,7 +11,7 @@ If you use this code in your scientific publication, please cite the paper
 
    **VolRAFT: Volumetric Optical Flow Network for Digital Volume Correlation of Synchrotron Radiation-based Micro-CT Images of Bone-Implant Interfaces**<br/>
      *Tak Ming Wong, Julian Moosmann, Berit Zeller-Plumhoff*<br/>
-     Accepted for oral presentations at IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, 2024
+     IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, 2024
      
      @InProceedings{wong2024volraft,
         author    = {Wong, Tak Ming and Moosmann, Julian and Zeller-Plumhoff, Berit},
@@ -24,12 +24,14 @@ If you use this code in your scientific publication, please cite the paper
 
 ## How to download?
 
-Paper: https://openaccess.thecvf.com/content/CVPR2024W/CV4MS/html/Wong_VolRAFT_Volumetric_Optical_Flow_Network_for_Digital_Volume_Correlation_of_CVPRW_2024_paper.html
+Paper:
+- https://openaccess.thecvf.com/content/CVPR2024W/CV4MS/html/Wong_VolRAFT_Volumetric_Optical_Flow_Network_for_Digital_Volume_Correlation_of_CVPRW_2024_paper.html
 
 Datasets:
 - Bone-implant materials: please contact us to access the datasets as it is too large for hosting on public-available platforms.
 
-Code: https://github.com/hereon-mbs/VolRAFT
+Code:
+- https://github.com/hereon-mbs/VolRAFT
 
 <table border="0">
   <tr border="0">
