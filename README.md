@@ -4,7 +4,7 @@
 
 In materials science research, digital volume correlation (DVC) analysis is commonly used to track deformations and strains to elucidate morphology-function relationships. Optical flow-based DVC is particularly popular because of its robustness to estimate the correlation as a dense deformation vector. Recently, computer vision researchers showed that network-based optical flow approaches can outperform classical iterative optical flow approaches. In this paper, we propose a supervised machine learning approach for digital volume correlation, VolRAFT, that estimates the 3D displacement vector between the reference volume and the deformed volume. The proposed approach extends the state-of-the-art network-based optical flow method, RAFT, from 2D images to 3D volumes such that it predicts the volumetric displacement vector from the input volume pairs. Experiments show that the proposed network performs well in estimating different displacement fields when compared to cutting-edge iterative DVC methods for bone-implant materials based on high resolution synchrotron-radiation micro-computed tomography imaging data.
 
-Abstract from Wong, T.M., Moosmann, J. & Zeller-Plumhoff, B. (2024). *VolRAFT: Volumetric Optical Flow Network for Digital Volume Correlation of Synchrotron Radiation-based Micro-CT Images of Bone-Implant Interfaces*. In CVPR Workshops (Accepted for oral presentation).
+Abstract from Wong, T.M., Moosmann, J. & Zeller-Plumhoff, B. (2024). *VolRAFT: Volumetric Optical Flow Network for Digital Volume Correlation of Synchrotron Radiation-based Micro-CT Images of Bone-Implant Interfaces*. CVPR Workshops. 2024.
 
 ## How to Cite
 If you use this code in your scientific publication, please cite the paper
@@ -17,15 +17,28 @@ If you use this code in your scientific publication, please cite the paper
         author    = {Wong, Tak Ming and Moosmann, Julian and Zeller-Plumhoff, Berit},
         title     = {VolRAFT: Volumetric Optical Flow Network for Digital Volume Correlation of Synchrotron Radiation-based Micro-CT Images of Bone-Implant Interfaces},
         booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
-        month     = {},
+        month     = {June},
         year      = {2024},
-        pages     = {}
+        pages     = {53-62}
     }
 
 ## How to download?
 
+Paper: https://openaccess.thecvf.com/content/CVPR2024W/CV4MS/html/Wong_VolRAFT_Volumetric_Optical_Flow_Network_for_Digital_Volume_Correlation_of_CVPRW_2024_paper.html
+
+Datasets:
+- Bone-implant materials: please contact us to access the datasets as it is too large for hosting on public-available platforms.
+
+Code: https://github.com/hereon-mbs/VolRAFT
+
 <table border="0">
   <tr border="0">
+    <td align="center" border="0">
+      <a href="https://openaccess.thecvf.com/content/CVPR2024W/CV4MS/html/Wong_VolRAFT_Volumetric_Optical_Flow_Network_for_Digital_Volume_Correlation_of_CVPRW_2024_paper.html" target="_blank">
+        <img src="volraft_paper_qr.png" width="262" title="link to CV4MS" alt="VolRAFT Paper">
+      </a> <br/>
+      Download paper <a href="https://openaccess.thecvf.com/content/CVPR2024W/CV4MS/html/Wong_VolRAFT_Volumetric_Optical_Flow_Network_for_Digital_Volume_Correlation_of_CVPRW_2024_paper.html" target="_blank">here</a>
+    </td>
     <td align="center" border="0"> 
       <a href="https://github.com/hereon-mbs/VolRAFT" target="_blank">
         <img src="volraft_github_qr.png" width="262" title="link to VolRAFT at GitHub" alt="VolRAFT at GitHub">
@@ -36,13 +49,12 @@ If you use this code in your scientific publication, please cite the paper
       <a href="https://sites.google.com/view/cv4ms-cvpr-2024/home" target="_blank">
         <img src="CV4MS.png" width="262" title="link to CV4MS" alt="CV4MS at CVPR 2024">
       </a> <br/>
-      The paper will be available at CVPR Workshops - CV4MS
+      CVPR Workshops - CV4MS
     </td>
   </tr>
 </table>
 
-Datasets:
-- Bone-implant materials: please contact us to access the datasets as it is too large for hosting on public-available platforms.
+
 
 ## Library packages for reference
 
